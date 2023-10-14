@@ -1,0 +1,43 @@
+book
+- title: String
+- genres: String
+- ISBN: String
+- copies: int
+- yearPublished: int
+- dateRegistered: Date
+- isAvailable: boolean
+--
++ addBook(): void
++ removeBook(): void
++ searchBook(): Book[]
++ deactivateBook(): void
++ reactivateBook(): void
++ addCopy(): void
+
+author
+- name: String
+- emailAddress: String
+- phoneNumber: String
+- residence: String
+--
++ registerAuthor(): void
++ deactivateAuthor(): void
++ activateAuthor(): void
++ deregister(): void
++ searchAssociatedBooks(): Book[]
+
+borrower
+- name: String
+- emailAddress: String
+- phoneNumber: String
+- isSuspended: boolean
+- isActive: boolean
+- residence: String
+- dateRegistered: Date
+--
++ borrowBook(): void
++ register(): void
++ suspend(): void
++ reinstate(): void
++ returnBook(): void
++ deregister(): void
