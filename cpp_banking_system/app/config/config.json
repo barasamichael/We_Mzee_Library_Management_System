@@ -1,0 +1,8 @@
+{
+	"database" : {
+		"host" : "localhost",
+		"username" : "root",
+		"password" : "MySQLXXX-123a8910",
+		"database" : "we_mzee_library_management_database"
+	}
+}
